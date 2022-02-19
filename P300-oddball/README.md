@@ -1,6 +1,6 @@
 # 3-Stimulus oddball paradigm
 
-The goal of this short project is to process, analyze and interpret the EEG of a single healthy subject who performed a 3-stimulus oddball task.
+The goal of this project is to process, analyze and interpret the EEG of a single healthy subject who performed a 3-stimulus oddball task.
 
 The classical 2-stimulus oddball task consists in presenting repeatedly two different stimuli in a random sequence: one stimulus, called standard, occurs frequently, while the other stimulus occurs infrequently and is called target since the subject is instructed to respond in some way to this rare stimulus. The 3-stimulus oddball task is a modification of the 2-stimulus task where a third stimulus is added, occurring infrequently as the target stimulus, and called distractor. In this case too, the subject has to respond only to the target stimulus. In the specific 3-stimulus auditory oddball task, the standard stimulus was a 440 Hz sinusoidal tone (70% of trials), the target stimulus was a 660 Hz sinusoidal tone (15% of trials) and the distractor (15% of trials) was a naturalistic sound. Each stimulus lasted 200 ms. The subject was instructed to mentally count the target stimuli and ignoring the standard and distractor stimuli.
 
