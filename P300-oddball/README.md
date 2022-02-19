@@ -6,8 +6,8 @@ The classical 2-stimulus oddball task consists in presenting repeatedly two diff
 
 # Results
 
-![alt text](https://github.com/marcellosicbaldi/P300-odball/Images/blob/main/ERPs.fig?raw=true)
+![alt text](https://github.com/marcellosicbaldi/EEG-processing/P300-odball/Images/blob/main/ERPs.fig?raw=true)
 
 The ERP waveform associated to the target stimulus displays P300, which is maximal over the parietal and central electrodes, while the P300 is not present in the ERP waveform associated to the standard stimulus. The P3 peak has been associated to voluntary attentional components, recognition of stimulus relevance for the task, and memory updating. 	The P3 evoked by this two-stimulus oddball task is often referred to as P3b, in order to distinguish it from a variant, called P3a.	
-The latter appears when a third ‘novel’ (still rare) stimulus is inserted into the oddball task, and the subject is not required to respond to this stimulus (also called ‘distractor’). ‘Novelty’ refers to the context of the other two stimuli. Such novel stimuli elicit a large positivity (P3a) with a latency that is earlier than that of the target-evoked P3b, and a scalp distribution that is more oriented towards the front of the scalp. P3a has been linked to involuntary capture of attention 
+The latter appears when a third ‘novel’ (still rare) stimulus is inserted into the oddball task, and the subject is not required to respond to this stimulus (also called ‘distractor’). ‘Novelty’ refers to the context of the other two stimuli. Such novel stimuli elicit a large positivity (P3a) with a latency that is earlier than that of the target-evoked P3b, and a scalp distribution that is more oriented towards the front of the scalp. P3a has been linked to involuntary capture of attention.
 
