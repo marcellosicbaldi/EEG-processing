@@ -84,7 +84,7 @@ set(gca, 'yticklabel', fliplr(ch_names))
 ```
 
 
-![figure_0](https://user-images.githubusercontent.com/55695116/154837463-f8c4ea4d-13e6-41b0-b635-dcbf4740b08f.png)
+![0](https://user-images.githubusercontent.com/55695116/154837694-84cf7bdf-f153-4424-99ad-ae55792117c0.png)
 
 ## PSD of ICs
 
@@ -125,6 +125,7 @@ for i = 1:5
 end
 ```
 
+![maps](https://user-images.githubusercontent.com/55695116/154837754-869ba0b0-25c2-4dbc-a5e8-02434035cea4.png)
 
 
 IC1 ECG artifact + other slow artifacts (the subject moved during the recording?)
@@ -182,7 +183,7 @@ set(gca, 'yticklabel', fliplr(ch_names))
 ```
 
 
-![figure_1](https://user-images.githubusercontent.com/55695116/154837495-4602a605-d5e8-48cb-b907-652c2d56f550.png)
+![1](https://user-images.githubusercontent.com/55695116/154837710-63b9cbf6-2b68-430e-a905-ecff512e8464.png)
 
 
   
@@ -306,7 +307,7 @@ sgtitle('Frontal region')
 ```
 
 
-![figure_2](https://user-images.githubusercontent.com/55695116/154837506-0b33db58-97ac-471c-a77c-1cc36ebf0fec.png)
+![2](https://user-images.githubusercontent.com/55695116/154837712-9efb0038-3829-4963-a0e5-28023904475f.png)
 
 
 
@@ -338,7 +339,7 @@ sgtitle('Temporo-central region')
 ```
 
 
-![figure_3](https://user-images.githubusercontent.com/55695116/154837515-5986ead0-faff-40ff-b5e7-3ef5c23fd206.png)
+![3](https://user-images.githubusercontent.com/55695116/154837715-8c690320-816c-494b-874b-22f891b40f4f.png)
 
 
 
@@ -369,8 +370,7 @@ sgtitle('Parieto-occipital region')
 ```
 
 
-![figure_4](https://user-images.githubusercontent.com/55695116/154837527-d0a888d8-4169-48f3-85ba-4857ddfb691d.png)
-
+![4](https://user-images.githubusercontent.com/55695116/154837716-4f9ca806-7c33-47d7-880f-96b577b35a37.png)
 
 
 Posterior electrodes: highest alpha activity in R1 and R2.
@@ -476,5 +476,6 @@ hold off
 ```
 
 
-![figure_5](https://user-images.githubusercontent.com/55695116/154837538-9120e2bd-d2b6-4f59-b890-653d7a4125a4.png)
+![5](https://user-images.githubusercontent.com/55695116/154837717-302aea57-2979-4837-98a7-42f7c8162d13.png)
+
 
