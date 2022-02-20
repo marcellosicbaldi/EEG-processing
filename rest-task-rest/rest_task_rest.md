@@ -84,7 +84,7 @@ set(gca, 'yticklabel', fliplr(ch_names))
 ```
 
 
-![Alt text](/Users/marcellosicbaldi/Desktop/BioEng/EEGProcessing/LAB4/rest_task_rest_images/figure_0.png)
+![figure_0](https://user-images.githubusercontent.com/55695116/154837463-f8c4ea4d-13e6-41b0-b635-dcbf4740b08f.png)
 
 ## PSD of ICs
 
@@ -182,7 +182,7 @@ set(gca, 'yticklabel', fliplr(ch_names))
 ```
 
 
-![Alt text](/Users/marcellosicbaldi/Desktop/BioEng/EEGProcessing/LAB4/rest_task_rest_images/figure_1.png)
+![figure_1](https://user-images.githubusercontent.com/55695116/154837495-4602a605-d5e8-48cb-b907-652c2d56f550.png)
 
 
   
@@ -306,7 +306,7 @@ sgtitle('Frontal region')
 ```
 
 
-![Alt text](/Users/marcellosicbaldi/Desktop/BioEng/EEGProcessing/LAB4/rest_task_rest_images/figure_2.png)
+![figure_2](https://user-images.githubusercontent.com/55695116/154837506-0b33db58-97ac-471c-a77c-1cc36ebf0fec.png)
 
 
 
@@ -338,7 +338,7 @@ sgtitle('Temporo-central region')
 ```
 
 
-![Alt text](/Users/marcellosicbaldi/Desktop/BioEng/EEGProcessing/LAB4/rest_task_rest_images/figure_3.png)
+![figure_3](https://user-images.githubusercontent.com/55695116/154837515-5986ead0-faff-40ff-b5e7-3ef5c23fd206.png)
 
 
 
@@ -369,7 +369,7 @@ sgtitle('Parieto-occipital region')
 ```
 
 
-![Alt text](/Users/marcellosicbaldi/Desktop/BioEng/EEGProcessing/LAB4/rest_task_rest_images/figure_4.png)
+![figure_4](https://user-images.githubusercontent.com/55695116/154837527-d0a888d8-4169-48f3-85ba-4857ddfb691d.png)
 
 
 
@@ -476,5 +476,5 @@ hold off
 ```
 
 
-![Alt text](/Users/marcellosicbaldi/Desktop/BioEng/EEGProcessing/LAB4/rest_task_rest_images/figure_5.png)
+![figure_5](https://user-images.githubusercontent.com/55695116/154837538-9120e2bd-d2b6-4f59-b890-653d7a4125a4.png)
 
