@@ -85,7 +85,7 @@ set(gca, 'yticklabel', fliplr(ch_names))
 
 
 ![/Users/marcellosicbaldi/Desktop/BioEng/EEG Processing/LAB4/rest_task_rest_images/figure_0.eps
-](rest_task_rest_images//Users/marcellosicbaldi/Desktop/BioEng/EEG Processing/LAB4/rest_task_rest_images/figure_0.eps
+](/Users/marcellosicbaldi/Desktop/BioEng/EEG Processing/LAB4/rest_task_rest_images/figure_0.eps
 )
 
 ## PSD of ICs
@@ -185,7 +185,7 @@ set(gca, 'yticklabel', fliplr(ch_names))
 
 
 ![/Users/marcellosicbaldi/Desktop/BioEng/EEG Processing/LAB4/rest_task_rest_images/figure_1.eps
-](rest_task_rest_images//Users/marcellosicbaldi/Desktop/BioEng/EEG Processing/LAB4/rest_task_rest_images/figure_1.eps
+](/Users/marcellosicbaldi/Desktop/BioEng/EEG Processing/LAB4/rest_task_rest_images/figure_1.eps
 )
 
   
@@ -310,7 +310,7 @@ sgtitle('Frontal region')
 
 
 ![/Users/marcellosicbaldi/Desktop/BioEng/EEG Processing/LAB4/rest_task_rest_images/figure_2.eps
-](rest_task_rest_images//Users/marcellosicbaldi/Desktop/BioEng/EEG Processing/LAB4/rest_task_rest_images/figure_2.eps
+](/Users/marcellosicbaldi/Desktop/BioEng/EEG Processing/LAB4/rest_task_rest_images/figure_2.eps
 )
 
 
@@ -344,7 +344,7 @@ sgtitle('Temporo-central region')
 
 
 ![/Users/marcellosicbaldi/Desktop/BioEng/EEG Processing/LAB4/rest_task_rest_images/figure_3.eps
-](rest_task_rest_images//Users/marcellosicbaldi/Desktop/BioEng/EEG Processing/LAB4/rest_task_rest_images/figure_3.eps
+](/Users/marcellosicbaldi/Desktop/BioEng/EEG Processing/LAB4/rest_task_rest_images/figure_3.eps
 )
 
 
@@ -377,7 +377,7 @@ sgtitle('Parieto-occipital region')
 
 
 ![/Users/marcellosicbaldi/Desktop/BioEng/EEG Processing/LAB4/rest_task_rest_images/figure_4.eps
-](rest_task_rest_images//Users/marcellosicbaldi/Desktop/BioEng/EEG Processing/LAB4/rest_task_rest_images/figure_4.eps
+](/Users/marcellosicbaldi/Desktop/BioEng/EEG Processing/LAB4/rest_task_rest_images/figure_4.eps
 )
 
 
@@ -486,6 +486,6 @@ hold off
 
 
 ![/Users/marcellosicbaldi/Desktop/BioEng/EEG Processing/LAB4/rest_task_rest_images/figure_5.eps
-](rest_task_rest_images//Users/marcellosicbaldi/Desktop/BioEng/EEG Processing/LAB4/rest_task_rest_images/figure_5.eps
+](/Users/marcellosicbaldi/Desktop/BioEng/EEG Processing/LAB4/rest_task_rest_images/figure_5.eps
 )
 
