@@ -6,12 +6,12 @@ Long recording lasting 15 minutes. First 5 min: relax phase R1. Successive 5 min
 
 
 
-I apply ICA to all the recording, and after preprocessing I want to analyze the processed data. The analysis involves the alpha rhythm (8-13/14 Hz), which we know is dominant during the relaxig phase. I want to see how it changes during T and R2. During the relaxed condition alpha is dominant in the posterior region of the scalp. It has the function of inhibiting processing of external stimuli, in particular visual (visual cortex is located posteriorly) --> helps the subject to isolate from the external enviromìnment (INTERNAL ATTENTION mechanism).
+I apply ICA to all the recording, and after preprocessing I want to analyze the processed data. The analysis involves the alpha rhythm (8-13/14 Hz), which we know is dominant during the relaxig phase. I want to see how it changes during T and R2. During the relaxed condition alpha is dominant in the posterior region of the scalp. It has the function of inhibiting processing of external stimuli, in particular visual (visual cortex is located posteriorly) --> helps the subject to isolate from the external environment (INTERNAL ATTENTION mechanism).
 
 
 
 
-Frequency domain analysis: I want to compute in each phase the PSD (using pwelch) of the 13 signals. Then I group the 13 electrodes in 3 macro regions of the scalp
+Frequency domain analysis: Icompute in each phase the PSDof the 13 signals. Then I group the 13 electrodes in 3 macro regions of the scalp:
 
 
 
