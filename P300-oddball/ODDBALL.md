@@ -254,8 +254,6 @@ No bad channels identified
 ## Preprocessing 2 
 ### Independent component analysis (EEGLAB fun runica.m)
 
-\hfill \break
-
 
 ```matlab:Code
 % %%%% comment from here to...(see below) after first use
@@ -333,8 +331,6 @@ X_new = A*S_new;
 
 ### Average re-referencing 
 
-\hfill \break
-
 
 ```matlab:Code
 %60 channels, the last row contains CPz referred to AR
@@ -385,8 +381,6 @@ X_epoched = X_epoched-repmat(baseline,1,m_ep,1); % baseline corrected
 
 ### Separating the epochs according to the type of stimulus 
 
-\hfill \break
-
 
 ```matlab:Code
 q_stand = length(i_stand); % number of epochs with standard stimulus
@@ -411,7 +405,6 @@ WSA_stand = mean(X_epoched_stand, 3);
 WSA_targ = mean(X_epoched_targ, 3);
 WSA_dist = mean(X_epoched_dist, 3);
 ```
-
 
 
 Plot
