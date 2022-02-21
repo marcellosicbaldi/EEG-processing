@@ -29,7 +29,7 @@ And I average the PSD of the channels in each macro region, to obtain PSD_fronta
 Finally I can compute the alpha power in each region and for each phase (9 values, integral of PSD in range 8-14 Hz using *trapz*). I can then plot those values.
 
 
-## 1) Loading and plotting the data
+## Loading and plotting the data
 
 ```matlab:Code
 clc; clear
@@ -98,11 +98,8 @@ PSD = PSD';
 ```
 
 
+I now use EEGLAB to estimate the ICs and import both demixing matrix W and mixing matrix A (S = WX)
 
- I now use EEGLAB to estimate the ICs and import both demixing matrix W and mixing matrix A (S = WX)
-
-
-## 5) Plotting 30 seconds of the ICs  
 
 ```matlab:Code
 load('W.txt') % demixing matrix
@@ -110,7 +107,7 @@ load('A.txt') % mixing matrix
 S = W*X;
 ```
 
-## 6) Plotting the PSD of the ICs
+## PSD of the ICs
 
 ```matlab:Code
 [PSD, f] = pwelch(S', window, [], NFFT, fs); %[] -> 50% overlap between segments
@@ -156,7 +153,7 @@ IC8 strange spectrum with high frequencies content and large artifact around 300
 Also IC9, IC10 and IC11 seem to contain some artifact activity, but I have maintained them as they also contain alpha power
 
 
-## 8) Reconstructing the EEG signals cleaned from artifacts
+## Reconstructing the EEG signals cleaned from artifacts
 
 ```matlab:Code
 S_new = S; 
@@ -187,7 +184,7 @@ set(gca, 'yticklabel', fliplr(ch_names))
 
 
   
-## 9) Computing the PSD separately for the three phases (R1, T and R2)
+## Computing the PSD separately for the three phases (R1, T and R2)
 
 ```matlab:Code
 X_R1 = X_new(:, 1:5*60*fs);
@@ -236,7 +233,7 @@ mean_PSDpeak_R2 = 40.3728
 We can see that the mean peak is higher in the R2 phase. Possible explanation: during R1 the subject knows that he will eventually be presented with a stimulus --> not completely relaxed as in R2
 
 
-## 10) Averaging the PSD between the electrodes belonging to each macro-region for each task 
+## Averaging the PSD between the electrodes belonging to each macro-region for each task 
 
    -  R1  
 
@@ -381,7 +378,7 @@ Posterior electrodes: highest alpha activity in R1 and R2.
 We can observe that for all three regions the alpha activity is greatly attenuated during the task
 
 
-## 11) Computing the area of the PSD in the alpha band (alpha power) for each scalp region 
+## Computing the area of the PSD in the alpha band (alpha power) for each scalp region 
 
 ```matlab:Code
 imin = find(f==8);
