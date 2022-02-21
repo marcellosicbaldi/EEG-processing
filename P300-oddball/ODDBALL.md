@@ -130,8 +130,6 @@ ylim([-0.05 1.05])
 ```
 
 
-![figure_1](https://user-images.githubusercontent.com/55695116/154918772-75203ac1-18c1-4e1d-b7e9-fc1bd41d7dfd.png)
-
 
 ```matlab:Code
 X_filt = filtfilt(b,a,X_det')'; %with filtfilt is a zero-phase filter;
