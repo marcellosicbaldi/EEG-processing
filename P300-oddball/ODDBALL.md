@@ -85,8 +85,6 @@ X_det = X_det';
 
 ### Plot 
 
-\hfill \break
-
 
 ```matlab:Code
 delta = 100;
@@ -108,8 +106,8 @@ set(gca,'fontsize',11)
 grid
 ```
 
+![figure_0](https://user-images.githubusercontent.com/55695116/154918762-b7859666-3259-4982-aca8-9547d511fd5f.png)
 
-![Alt text](/Users/marcellosicbaldi/Desktop/BioEng/EEGProcessing/LAB4/ODDBALL_images/figure_0.png)
 
 ### Filtering
 
@@ -132,9 +130,7 @@ ylim([-0.05 1.05])
 ```
 
 
-![/Users/marcellosicbaldi/Desktop/BioEng/EEGProcessing/LAB4/ODDBALL_images/figure_1.png
-](ODDBALL_images//Users/marcellosicbaldi/Desktop/BioEng/EEGProcessing/LAB4/ODDBALL_images/figure_1.png
-)
+![figure_1](https://user-images.githubusercontent.com/55695116/154918772-75203ac1-18c1-4e1d-b7e9-fc1bd41d7dfd.png)
 
 
 ```matlab:Code
@@ -177,9 +173,7 @@ grid
 ```
 
 
-![/Users/marcellosicbaldi/Desktop/BioEng/EEGProcessing/LAB4/ODDBALL_images/figure_2.png
-](ODDBALL_images//Users/marcellosicbaldi/Desktop/BioEng/EEGProcessing/LAB4/ODDBALL_images/figure_2.png
-)
+![figure_2](https://user-images.githubusercontent.com/55695116/154918773-db3fb698-90cb-4a02-af53-6ed9ed0c1779.png)
 
 ### Epoching 
 
@@ -229,9 +223,7 @@ set(gca, 'yticklabel', fliplr(ch_names))
 ```
 
 
-![/Users/marcellosicbaldi/Desktop/BioEng/EEGProcessing/LAB4/ODDBALL_images/figure_3.png
-](ODDBALL_images//Users/marcellosicbaldi/Desktop/BioEng/EEGProcessing/LAB4/ODDBALL_images/figure_3.png
-)
+![figure_3](https://user-images.githubusercontent.com/55695116/154918774-9f2751b3-0930-4db7-94f2-adb496c71901.png)
 
 ### Bad channels identification
 
@@ -309,56 +301,6 @@ end
 ```
 
 
-```text:Output
-max_frame = 49250
-```
-
-
-![/Users/marcellosicbaldi/Desktop/BioEng/EEGProcessing/LAB4/ODDBALL_images/figure_4.png
-](ODDBALL_images//Users/marcellosicbaldi/Desktop/BioEng/EEGProcessing/LAB4/ODDBALL_images/figure_4.png
-)
-
-
-```text:Output
-max_frame = 49250
-```
-
-
-![/Users/marcellosicbaldi/Desktop/BioEng/EEGProcessing/LAB4/ODDBALL_images/figure_5.png
-](ODDBALL_images//Users/marcellosicbaldi/Desktop/BioEng/EEGProcessing/LAB4/ODDBALL_images/figure_5.png
-)
-
-
-```text:Output
-max_frame = 49250
-```
-
-
-![/Users/marcellosicbaldi/Desktop/BioEng/EEGProcessing/LAB4/ODDBALL_images/figure_6.png
-](ODDBALL_images//Users/marcellosicbaldi/Desktop/BioEng/EEGProcessing/LAB4/ODDBALL_images/figure_6.png
-)
-
-
-```text:Output
-max_frame = 49250
-```
-
-
-![/Users/marcellosicbaldi/Desktop/BioEng/EEGProcessing/LAB4/ODDBALL_images/figure_7.png
-](ODDBALL_images//Users/marcellosicbaldi/Desktop/BioEng/EEGProcessing/LAB4/ODDBALL_images/figure_7.png
-)
-
-
-```text:Output
-max_frame = 49250
-```
-
-
-![/Users/marcellosicbaldi/Desktop/BioEng/EEGProcessing/LAB4/ODDBALL_images/figure_8.png
-](ODDBALL_images//Users/marcellosicbaldi/Desktop/BioEng/EEGProcessing/LAB4/ODDBALL_images/figure_8.png
-)
-
-
 
 IC1 and IC2 blink artifact ---- IC3 artifact on all electrodes (or on the reference electrode)
 
@@ -425,9 +367,8 @@ title('After ICA, AVG REF')
 ```
 
 
-![/Users/marcellosicbaldi/Desktop/BioEng/EEGProcessing/LAB4/ODDBALL_images/figure_9.png
-](ODDBALL_images//Users/marcellosicbaldi/Desktop/BioEng/EEGProcessing/LAB4/ODDBALL_images/figure_9.png
-)
+![figure_9](https://user-images.githubusercontent.com/55695116/154918776-64619ae3-f704-4c99-a9ab-3447b0527a5f.png)
+
 
 ## ERP analysis
 ### Baseline correction
@@ -520,9 +461,7 @@ ylim([-6 +6])
 ```
 
 
-![/Users/marcellosicbaldi/Desktop/BioEng/EEGProcessing/LAB4/ODDBALL_images/figure_10.png
-](ODDBALL_images//Users/marcellosicbaldi/Desktop/BioEng/EEGProcessing/LAB4/ODDBALL_images/figure_10.png
-)
+![figure_10](https://user-images.githubusercontent.com/55695116/154918777-3ae516eb-d8fc-452b-a848-a69a71ac91ec.png)
 
 
 ```matlab:Code
@@ -562,9 +501,7 @@ end
 ```
 
 
-![/Users/marcellosicbaldi/Desktop/BioEng/EEGProcessing/LAB4/ODDBALL_images/figure_11.png
-](ODDBALL_images//Users/marcellosicbaldi/Desktop/BioEng/EEGProcessing/LAB4/ODDBALL_images/figure_11.png
-)
+![figure_11](https://user-images.githubusercontent.com/55695116/154918779-9d00bf94-d392-474f-940e-013e6c1ef396.png)
 
 
 
@@ -668,9 +605,7 @@ TF_colormap(time_values,frequency_values, CPower_dist(:,:,47),clim,title_string)
 ```
 
 
-![/Users/marcellosicbaldi/Desktop/BioEng/EEGProcessing/LAB4/ODDBALL_images/figure_12.png
-](ODDBALL_images//Users/marcellosicbaldi/Desktop/BioEng/EEGProcessing/LAB4/ODDBALL_images/figure_12.png
-)
+![figure_12](https://user-images.githubusercontent.com/55695116/154918782-8643f228-8346-4c76-b1a7-afa11fb23891.png)
 
 
 
